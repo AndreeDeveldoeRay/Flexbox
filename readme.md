@@ -4,7 +4,7 @@
 @Email:  me@andreeray.se
 @Filename: readme.md
 @Last modified by:   develdoe
-@Last modified time: 2017-04-20T11:19:54+02:00
+@Last modified time: 2017-04-20T11:33:43+02:00
 -->
 
 
@@ -41,7 +41,7 @@ npm install -g supervisor
 ## Backlog
 
 * remove Redux implementation
-    * uninstall modules
+
     * remove files associated
     * update components
 
@@ -96,3 +96,5 @@ Note: removing branch since its not needed for this project
 * 1.5 Update: component
 
 ## 1.0 Major (Flexbox) branch
+
+* 1.1 uninstall redux modules

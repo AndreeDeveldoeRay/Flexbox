@@ -4,7 +4,7 @@
 * @Email:  me@andreeray.se
 * @Filename: app.jsx
  * @Last modified by:   develdoe
- * @Last modified time: 2017-04-20T11:19:56+02:00
+ * @Last modified time: 2017-04-20T11:34:33+02:00
 */
 
 
@@ -43,7 +43,7 @@ console.log(`
  * @Site                : andreeray.se
  * @Patch               : 0.
  * @Last modified by    : develdoe
- * @Last modified time: 2017-04-20T11:19:56+02:00
+ * @Last modified time: 2017-04-20T11:34:33+02:00
 ##############################################
 
 %cABOUT#######################################
@@ -85,22 +85,9 @@ JavaScript ninja @ Devel Devils.
 * 0.8 Add: List
 * 0.9 Add: Item
 
-## 1.0 Major (Redux) branch
-
-Note: removing branch since its not needed for this project
-
-* 1.1 Install Redux modules:
-    * redux
-    * react-redux
-    * redux-thunk
-    * axios
-    * redux-mock-store
-* 1.2 Add: Store
-* 1.3 Add: Actions
-* 1.4 Add: Reducers
-* 1.5 Update: component
-
 ## 1.0 Major (Flexbox) branch
+
+* 1.1 uninstall redux modules
 
 ##############################################
 
