@@ -4,7 +4,7 @@
 @Email:  me@andreeray.se
 @Filename: readme.md
 @Last modified by:   develdoe
-@Last modified time: 2017-04-20T12:08:00+02:00
+@Last modified time: 2017-04-20T12:22:25+02:00
 -->
 
 
@@ -28,9 +28,6 @@ You will need to have Supervisor installed globally in order to use `npm start`.
 ```bash
 npm install -g supervisor
 ```
-
-
-## Building & Testing
 
 `npm install` to initialy install your npm modules
 
