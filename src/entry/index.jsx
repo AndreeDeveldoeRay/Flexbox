@@ -4,7 +4,7 @@
 * @Email:  me@andreeray.se
 * @Filename: app.jsx
  * @Last modified by:   develdoe
- * @Last modified time: 2017-04-20T02:00:55+02:00
+ * @Last modified time: 2017-04-20T11:19:56+02:00
 */
 
 
@@ -19,7 +19,7 @@ var store = require('store').configureStore(),
 
 store.dispatch(actions.changeStatus('Scripting'))
 
-var appName = "DevelStrap"
+var appName = "DevelFlexbox"
 document.title = appName
 store.dispatch(actions.changeAppName(appName))
 
@@ -43,7 +43,7 @@ console.log(`
  * @Site                : andreeray.se
  * @Patch               : 0.
  * @Last modified by    : develdoe
- * @Last modified time: 2017-04-20T02:00:55+02:00
+ * @Last modified time: 2017-04-20T11:19:56+02:00
 ##############################################
 
 %cABOUT#######################################
@@ -55,8 +55,8 @@ JavaScript ninja @ Devel Devils.
 
 %cRELEASELOG#####################################
 
-0.0 Major (Framework) branch
-================================
+## 0.0 Major (Framework) branch
+
 * 0.1 Install framework modules:
     * webpack
     * react
@@ -85,8 +85,10 @@ JavaScript ninja @ Devel Devils.
 * 0.8 Add: List
 * 0.9 Add: Item
 
-1.0 Major (Redux) branch
-================================
+## 1.0 Major (Redux) branch
+
+Note: removing branch since its not needed for this project
+
 * 1.1 Install Redux modules:
     * redux
     * react-redux
@@ -97,6 +99,8 @@ JavaScript ninja @ Devel Devils.
 * 1.3 Add: Actions
 * 1.4 Add: Reducers
 * 1.5 Update: component
+
+## 1.0 Major (Flexbox) branch
 
 ##############################################
 

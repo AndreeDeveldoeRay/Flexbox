@@ -4,38 +4,26 @@
 @Email:  me@andreeray.se
 @Filename: readme.md
 @Last modified by:   develdoe
-@Last modified time: 2017-04-20T02:00:42+02:00
+@Last modified time: 2017-04-20T11:19:54+02:00
 -->
 
 
 
-# DevelStrap, React & redux
+# DevelFlexbox
 
-Bootstrapping React app development.
+An implementation of Flexbox Grid.
+
+A grid system based on the flex display property.
 
 ## Webpack & Babel
 
 You will need to have Webpack installed globally in order to build the applicatinon.
 The project uses Babel with react, es2015, stage-0 presets.
 
-## Test Suit
-
-There is also a comprehensive test suit, with karma, mocha and expect, included to get you up and running with testing.
-In order to learn how to set up test, beside the included examples,  please visit [mjackson/expect](https://github.com/mjackson/expect).
-I also have a repo with comprehensive test cases at [DevelTests](https://github.com/AndreeDeveldoeRay/DevelTests)
-
-## Redux
-
-The Redux implementation is ready to use with redux devtools extension in chrome, you need to install this,.
-There is tree different types of state cases included to get you started.
-
-* Simple text field
-* An array
-* api call
 
 ## Serving
 
-You will need to have Supervisor installed globally in order to use `npm start`
+You will need to have Supervisor installed globally in order to use `npm start`.
 
 ```bash
 npm install -g supervisor
@@ -48,14 +36,23 @@ npm install -g supervisor
 
 `webpack` to bundle your files, use `webpack -w` to autogenerate the bundle on the fly.
 
-`npm test` to run your test suit.
-
 `npm start` to start your server.
+
+## Backlog
+
+* remove Redux implementation
+    * uninstall modules
+    * remove files associated
+    * update components
+
+* remove all component but one
+* remove test suite
+* update entry & component
 
 ## Release log
 
-0.0 Major (Framework) branch
-================================
+## 0.0 Major (Framework) branch
+
 * 0.1 Install framework modules:
     * webpack
     * react
@@ -84,8 +81,9 @@ npm install -g supervisor
 * 0.8 Add: List
 * 0.9 Add: Item
 
-1.0 Major (Redux) branch
-================================
+## 1.0 Major (Redux) branch
+Note: removing branch since its not needed for this project
+
 * 1.1 Install Redux modules:
     * redux
     * react-redux
@@ -96,3 +94,5 @@ npm install -g supervisor
 * 1.3 Add: Actions
 * 1.4 Add: Reducers
 * 1.5 Update: component
+
+## 1.0 Major (Flexbox) branch
