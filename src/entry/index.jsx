@@ -4,36 +4,21 @@
 * @Email:  me@andreeray.se
 * @Filename: app.jsx
  * @Last modified by:   develdoe
- * @Last modified time: 2017-04-20T11:34:33+02:00
+ * @Last modified time: 2017-04-20T12:07:53+02:00
 */
 
 
-var React = require('react'),
-    ReactDOM = require('react-dom'),
-    {Provider} = require('react-redux')
-
+import React from 'react'
+import ReactDOM from 'react-dom'
 import Component from 'component'
 
-var store = require('store').configureStore(),
-    actions = require('actions')
-
-store.dispatch(actions.changeStatus('Scripting'))
 
 var appName = "DevelFlexbox"
+
 document.title = appName
-store.dispatch(actions.changeAppName(appName))
 
 
-
-store.dispatch(actions.addItem('item 1','test'))
-store.dispatch(actions.addItem('item 2','test'))
-store.dispatch(actions.addItem('item 3','test'))
-store.dispatch(actions.removeItem(2))
-
-store.dispatch(actions.fetchLocation())
-
-
-ReactDOM.render(<Provider store={store}><Component/></Provider>, document.getElementById('app'))
+ReactDOM.render(<Component/>, document.getElementById('app'))
 
 console.log(`
 %cMETA########################################
@@ -43,7 +28,7 @@ console.log(`
  * @Site                : andreeray.se
  * @Patch               : 0.
  * @Last modified by    : develdoe
- * @Last modified time: 2017-04-20T11:34:33+02:00
+ * @Last modified time: 2017-04-20T12:07:53+02:00
 ##############################################
 
 %cABOUT#######################################
@@ -53,45 +38,32 @@ JavaScript ninja @ Devel Devils.
 
 ##############################################
 
+%cBACKLOG#####################################
+
+* Install flexbox modules
+* Add layouts with color scheme
+
+##############################################
+
 %cRELEASELOG#####################################
 
 ## 0.0 Major (Framework) branch
 
-* 0.1 Install framework modules:
-    * webpack
-    * react
-    * react-dom
-    * express
-    * babel-core
-    * babel-loader
-    * babel-preset-es2015
-    * babel-preset-react
-    * babel-preset-stage-0
-* 0.2 Setup: Webpack
-* 0.3 Add: public HTML
-* 0.4 Add: Simple server
-* 0.5 Install Test suite modules:
-    * karma
-    * karma-webpack
-    * karma-mocha
-    * karma-mocha-reporter
-    * karma-chrome-launcher
-    * karma-sourcemap-loader
-    * mocha
-    * expect
-    * react-addons-test-utils
-* 0.6 Add: Entry
-* 0.7 Add: Component
-* 0.8 Add: List
-* 0.9 Add: Item
+* 0.1 NPM    : npm install --save-dev webpack react react-dom express babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0
+* 0.2 Setup  : Webpack
+* 0.3 Add    : public HTML
+* 0.4 Add    : Simple server
+* 0.5 Add    : Entry
+* 0.6 Add    : Component
 
 ## 1.0 Major (Flexbox) branch
 
-* 1.1 uninstall redux modules
-
-##############################################
-
-%cBACKLOG#####################################
+* 1.1 NPM    : redux modules
+* 1.2 Remove : redux files & all unnecessary files
+* 1.3 Update : webpack, components and entry
+* 1.4 NPM    : Test suite modules
+* 1.5 Remove : test files, karma.conf
+* 1.6 NPM    : remove & re-install modules (just to be sure no old dependencies are still present)
 
 ##############################################
 

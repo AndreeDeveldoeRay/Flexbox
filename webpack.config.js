@@ -4,7 +4,7 @@
 * @Email:  me@andreeray.se
 * @Filename: webpack.config.js
  * @Last modified by:   develdoe
- * @Last modified time: 2017-04-19T16:41:45+02:00
+ * @Last modified time: 2017-04-20T11:43:56+02:00
 */
 
 
@@ -25,11 +25,6 @@ module.exports = {
             'node_modules',
             './src/components'
         ],
-        alias: {
-            actions: 'src/redux/actions',
-            reducers: 'src/redux/reducers',
-            store: 'src/redux/store'
-        },
         extensions: ['','.js','.jsx']
     },
     module: {
