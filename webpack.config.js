@@ -4,7 +4,7 @@
 * @Email:  me@andreeray.se
 * @Filename: webpack.config.js
  * @Last modified by:   develdoe
- * @Last modified time: 2017-04-20T14:26:58+02:00
+ * @Last modified time: 2017-04-20T22:32:31+02:00
 */
 
 
@@ -36,11 +36,6 @@ module.exports = {
                 },
                 test: /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/
-            },
-            {
-                test: /\.css$/,
-                loader: 'style!css!',
-                exclude: /flexboxgrid/
             },
             {
               test: /\.css$/,
